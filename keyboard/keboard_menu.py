@@ -61,8 +61,8 @@ info_ip = InlineKeyboardMarkup(inline_keyboard=[
 
 ])
 ip_usn_1_enter = InlineKeyboardMarkup(inline_keyboard=[
-    [InlineKeyboardButton(text='ОТКРЫТЬ СЧЕТ ИП(ксю)',
-                          url='https://alfabot.alfa-recru.ru/links/7808934401/5525537447/ip_account')],
+    [InlineKeyboardButton(text='ОТКРЫТЬ СЧЕТ ИП',
+                          url='https://alfabank.ru/sme/partner/ag/?platformId=alfapartners_msv_rko-anketa_962348_3469333&utm_source=alfapartners&utm_medium=msv&utm_term=rko-anketa&utm_campaign=962348&utm_content=alfapartners_msv_rko-anketa_962348_3469333')],
     [InlineKeyboardButton(text='Я ОТКРЫЛ(А) СЧЕТ ИП', callback_data='ip_usn_1_yes')],
     [InlineKeyboardButton(text='ХЕЛП', callback_data='help')],
 
